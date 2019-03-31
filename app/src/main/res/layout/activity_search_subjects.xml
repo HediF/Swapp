@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context=".SearchSubjects">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:text="I'm looking for this subject:" />
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:text="I can provide this subject:" />
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/matchme"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:layout_gravity="center_horizontal"
+        android:text="Find my matches!" />
+<android.support.constraint.ConstraintLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+        <ListView
+            android:id="@+id/userslist"
+            android:layout_marginBottom="58dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        </ListView>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="0dp"
+        android:layout_height="wrap_content">
+
+
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bottomnavigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:itemBackground="@drawable/gradient"
+            app:menu="@menu/navigationbar"
+            android:background="?android:attr/windowBackground">
+        </android.support.design.widget.BottomNavigationView>
+
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+</LinearLayout>
