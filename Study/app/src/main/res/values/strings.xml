@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Swapp</string>
+    <string name="facebook_id">848972925452063</string>
+    <string name="fb_login_protocol_scheme">fb848972925452063</string>
+    <string name="email">Email:</string>
+    <string name="fgmt_titre_drawer">YourText</string>
+    <string-array name="Subjects">
+        <item>Softwareentwicklung</item>
+        <item>Kostenrechnung</item>
+        <item>Rechnungswesen</item>
+        <item>Android Entwicklung</item>
+        <item>Data structure</item>
+        <item>Softwareengineering</item>
+        <item>Englisch</item>
+        <item>Marketing</item>
+        <item>Anwendungssysteme</item>
+        <item>Wirtschaftsinformatik</item>
+        <item>Mathematik</item>
+        <item>Entscheidungslehre</item>
+        <item>Statistik</item>
+
+    </string-array>
+
+</resources>
